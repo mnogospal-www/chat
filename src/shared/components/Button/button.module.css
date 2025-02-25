@@ -1,0 +1,19 @@
+.button {
+	padding: var(--spacing-m);
+	border-radius: var(--border-radius-m);
+	border: none;
+	font: inherit;
+	font-weight: var(--font-weight-bold);
+	color: var(--color-primary-background);
+	background-color: var(--color-primary-accent);
+	cursor: pointer;
+
+	&:enabled:hover {
+		background-color: var(--color-secondary-accent);
+	}
+
+	&:disabled {
+		background-color: var(--color-secondary-accent);
+		cursor: unset;
+	}
+}

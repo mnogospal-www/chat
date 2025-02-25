@@ -1,0 +1,30 @@
+.authForm {
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacing-xxl);
+
+	.titles {
+		display: flex;
+		flex-direction: column;
+
+		h1 {
+			font-size: var(--font-size-xl);
+		}
+
+		h2 {
+			font: inherit;
+			color: var(--color-secondary-accent);
+		}
+	}
+
+	.inner {
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-s);
+	}
+
+	.links {
+		display: flex;
+		gap: var(--spacing-m);
+	}
+}

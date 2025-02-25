@@ -1,0 +1,12 @@
+.authLayout {
+	padding: 0 var(--spacing-m);
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 1fr;
+	justify-items: center;
+	align-items: center;
+
+	.auth {
+		width: min(100%, var(--container-size-m));
+	}
+}

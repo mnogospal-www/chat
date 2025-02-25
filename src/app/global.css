@@ -1,0 +1,59 @@
+[data-theme='dark'] {
+	--color-primary-background: #000000;
+	--color-secondary-background: #0a0a0a;
+	--color-tertiary-background: #262626;
+	--color-quaternary-background: #3c3c3c;
+	--color-primary-accent: #ededed;
+	--color-secondary-accent: #a0a0a0;
+	--color-tertiary-accent: #818181;
+	--color-primary-standout: #52a8ff;
+}
+
+:root {
+	--font-size-xxs: 8px;
+	--font-size-xs: 10px;
+	--font-size-s: 12px;
+	--font-size-m: 14px;
+	--font-size-l: 18px;
+	--font-size-xl: 24px;
+	--font-size-xxl: 32px;
+	--font-weight-light: 300;
+	--font-weight-regular: 400;
+	--font-weight-bold: 500;
+	--font-weight-extra-bold: 600;
+	--spacing-xxs: 8px;
+	--spacing-xs: 10px;
+	--spacing-s: 12px;
+	--spacing-m: 14px;
+	--spacing-l: 18px;
+	--spacing-xl: 24px;
+	--spacing-xxl: 32px;
+	--container-size-xxs: 50px;
+	--container-size-xs: 100px;
+	--container-size-s: 200px;
+	--container-size-m: 400px;
+	--container-size-l: 800px;
+	--container-size-xl: 1000px;
+	--container-size-xxl: 1200px;
+	--border-width-xxs: 1px;
+	--border-radius-m: 8px;
+	--border-radius-xxl: 14px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: var(--font-size-m);
+	font-weight: var(--font-weight-regular);
+	color: var(--color-primary-accent);
+	background-color: var(--color-primary-background);
+}
+
+::selection {
+	color: var(--color-primary-background);
+	background-color: var(--color-primary-accent);
+}

@@ -1,0 +1,13 @@
+.textInput {
+	padding: var(--spacing-m);
+	border-radius: var(--border-radius-m);
+	border: var(--border-width-xxs) solid var(--color-tertiary-background);
+	outline: none;
+	font: inherit;
+	color: var(--color-primary-accent);
+	background-color: transparent;
+
+	:hover {
+		border-color: var(--color-quaternary-background);
+	}
+}
