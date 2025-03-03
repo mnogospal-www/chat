@@ -1,8 +1,7 @@
 [data-theme='dark'] {
-	--color-primary-background: #000000;
-	--color-secondary-background: #0a0a0a;
-	--color-tertiary-background: #262626;
-	--color-quaternary-background: #3c3c3c;
+	--color-primary-background: #0d0d0d;
+	--color-secondary-background: #262626;
+	--color-tertiary-background: #383838;
 	--color-primary-accent: #ededed;
 	--color-secondary-accent: #a0a0a0;
 	--color-tertiary-accent: #818181;
@@ -28,16 +27,15 @@
 	--spacing-l: 18px;
 	--spacing-xl: 24px;
 	--spacing-xxl: 32px;
-	--container-size-xxs: 50px;
-	--container-size-xs: 100px;
-	--container-size-s: 200px;
+	--container-size-xxs: 100px;
+	--container-size-xs: 200px;
+	--container-size-s: 300px;
 	--container-size-m: 400px;
 	--container-size-l: 800px;
 	--container-size-xl: 1000px;
 	--container-size-xxl: 1200px;
 	--border-width-xxs: 1px;
-	--border-radius-m: 8px;
-	--border-radius-xxl: 14px;
+	--border-radius-default: 14px;
 }
 
 * {

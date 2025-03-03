@@ -1,0 +1,31 @@
+.dialogCard {
+	padding: var(--spacing-s);
+	border: none;
+	text-align: start;
+	border-radius: var(--border-radius-default);
+	color: var(--color-primary-accent);
+	background-color: transparent;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+	gap: var(--spacing-xs);
+	cursor: pointer;
+
+	&:hover {
+		background-color: var(--color-tertiary-background);
+	}
+
+	img {
+		border-radius: 50%;
+	}
+
+	p {
+		margin-top: 3px;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 1;
+		line-clamp: 1;
+		color: var(--color-secondary-accent);
+	}
+}

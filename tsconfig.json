@@ -20,6 +20,7 @@
 		],
 		"baseUrl": "src/",
 		"paths": {
+			"@config/*": ["config/*"],
 			"@shared/*": ["shared/*"],
 			"@auth/*": [
 				"app/(auth)/_components/ui/*",
@@ -28,6 +29,10 @@
 				"app/(auth)/_types/*",
 				"app/(auth)/_schemas/*",
 				"app/(auth)/_actions/*"
+			],
+			"@chat/*": [
+				"app/(chat)/_components/ui/*",
+				"app/(chat)/_components/containers/*"
 			]
 		}
 	},

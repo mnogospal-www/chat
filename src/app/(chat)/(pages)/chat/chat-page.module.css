@@ -1,0 +1,22 @@
+.chatLayout {
+	height: 100vh;
+	display: grid;
+}
+
+.desktop {
+	grid-template-columns: var(--container-size-m) auto;
+}
+
+.mobile {
+	grid-template-columns: 1fr;
+
+	.sidebar {
+		display: none;
+
+		&.active {
+			display: flex;
+			inset: 0;
+			position: fixed;
+		}
+	}
+}

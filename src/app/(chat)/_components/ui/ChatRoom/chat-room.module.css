@@ -1,0 +1,23 @@
+.chatRoom {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	background-color: var(--color-primary-background);
+
+	header,
+	.history,
+	.messageFormWrapper {
+		padding: var(--spacing-xs);
+	}
+
+	header {
+		border-bottom: var(--border-width-xxs) solid
+			var(--color-tertiary-background);
+		background-color: var(--color-secondary-background);
+	}
+
+	.history,
+	.messageFormWrapper {
+		margin: 0 auto;
+		width: min(100%, var(--container-size-l));
+	}
+}

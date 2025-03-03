@@ -1,0 +1,19 @@
+.sidebar {
+	padding: var(--spacing-xs);
+	border-right: var(--border-width-xxs) solid var(--color-tertiary-background);
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacing-l);
+	background-color: var(--color-secondary-background);
+
+	.dialogList {
+		display: flex;
+		flex-direction: column;
+		overflow-y: auto;
+		scrollbar-width: none;
+
+		&.hidden {
+			display: none;
+		}
+	}
+}

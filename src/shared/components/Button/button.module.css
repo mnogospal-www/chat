@@ -1,6 +1,6 @@
 .button {
 	padding: var(--spacing-m);
-	border-radius: var(--border-radius-m);
+	border-radius: var(--border-radius-default);
 	border: none;
 	font: inherit;
 	font-weight: var(--font-weight-bold);

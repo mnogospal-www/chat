@@ -1,0 +1,22 @@
+.icon {
+	width: 35px;
+	height: 35px;
+	padding: var(--spacing-xxs);
+	border: none;
+	border-radius: var(--border-radius-default);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--color-primary-accent);
+	background-color: transparent;
+	cursor: pointer;
+
+	svg {
+		stroke-width: 2.5px;
+	}
+
+	&:hover {
+		color: var(--color-primary-standout);
+		background-color: var(--color-tertiary-background);
+	}
+}

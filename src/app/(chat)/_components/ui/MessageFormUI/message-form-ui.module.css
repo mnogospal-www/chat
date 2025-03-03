@@ -1,0 +1,21 @@
+.messageForm {
+	padding: var(--spacing-xxs);
+	border-radius: var(--border-radius-default);
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	align-items: center;
+	gap: var(--spacing-m);
+	background-color: var(--color-secondary-background);
+
+	textarea {
+		field-sizing: content;
+		max-height: var(--container-size-xxs);
+		border: none;
+		outline: none;
+		font: inherit;
+		color: var(--color-primary-accent);
+		background-color: transparent;
+		scrollbar-width: none;
+		resize: none;
+	}
+}
